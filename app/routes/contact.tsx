@@ -3,8 +3,8 @@ import { Heading } from "~/components/ui/heading";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "Johnson Ta 🚀 Abut me" },
-    { name: "description", content: "Learn more about me" },
+    { title: "Johnson Ta 🚀 Let's chat" },
+    { name: "description", content: "Around the web - Contact me" },
   ];
 };
 

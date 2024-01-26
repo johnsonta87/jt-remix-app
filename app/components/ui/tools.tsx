@@ -27,7 +27,7 @@ const experiences = [
   {
     language: "SCSS/CSS",
     libaries: "Astro",
-    backend: "PostGres",
+    backend: "HTMX",
   },
   {
     language: "Dart",
@@ -37,7 +37,7 @@ const experiences = [
   {
     language: "Liquid",
     libaries: "Nuxt",
-    backend: "SQL",
+    backend: "",
   },
   {
     language: "",
@@ -67,7 +67,7 @@ export function Tools() {
             <TableHead className="text-rose-500 text-center">
               Libraries/Frameworks
             </TableHead>
-            <TableHead className="text-rose-500 text-right">Backend</TableHead>
+            <TableHead className="text-rose-500 text-right">Others</TableHead>
           </TableRow>
         </TableHeader>
         <TableBody>
