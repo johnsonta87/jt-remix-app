@@ -17,27 +17,27 @@ const experiences = [
   {
     language: "Typescript",
     libaries: "Next.js",
-    backend: "Express.js",
+    backend: "REST API",
   },
   {
     language: "HTML5",
     libaries: "TailwindCSS",
-    backend: "REST API",
+    backend: "HTMX",
   },
   {
     language: "SCSS/CSS",
     libaries: "Astro",
-    backend: "HTMX",
+    backend: "Node",
   },
   {
     language: "Dart",
     libaries: "Remix",
-    backend: "Node.js",
+    backend: "Flutter",
   },
   {
     language: "Liquid",
     libaries: "Nuxt",
-    backend: "",
+    backend: "React Native",
   },
   {
     language: "",
