@@ -13,11 +13,6 @@ export function Navigation() {
       highlight: false,
     },
     {
-      link: "/my-work",
-      text: "My Work",
-      highlight: false,
-    },
-    {
       link: "/contact",
       text: "Let's Chat",
       highlight: false,
