@@ -14,7 +14,10 @@ export default function About() {
     <>
       <Heading text="About me" />
 
-      <p className="mb-4">I’m Johnson, a software engineer in Canada.</p>
+      <p className="mb-4">
+        I’m Johnson, a <span className="text-rose-500">software engineer</span>{" "}
+        in Canada.
+      </p>
 
       <p className="mb-4">
         I have been developing applications for over 8 years. Much of my
@@ -26,6 +29,11 @@ export default function About() {
       <p className="mb-4">
         I am a fast learning and am able to adapt to new workflows and coding
         projects.
+      </p>
+
+      <p className="mb-4">
+        Whether it be in the real or software worlds, I love building products
+        that are elegant, useful, and cost-effective.
       </p>
 
       <blockquote className="bg-amber-100 p-6 my-6">

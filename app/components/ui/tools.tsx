@@ -25,7 +25,7 @@ const experiences = [
     backend: "REST API",
   },
   {
-    language: "CSS3",
+    language: "SCSS/CSS",
     libaries: "Astro",
     backend: "PostGres",
   },
