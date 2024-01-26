@@ -8,6 +8,7 @@
     "dev": "remix dev --manual",
     "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
     "start": "remix-serve ./build/index.js",
+    "format": "git diff --diff-filter=AM --name-only --cached | grep -E \"\\.(js|jsx|ts|tsx|json|md)$\" | xargs npx prettier --write && git status",
     "typecheck": "tsc"
   },
   "dependencies": {

@@ -28,7 +28,11 @@ export default function About() {
 
       <p className="mb-4">
         I am a fast learning and am able to adapt to new workflows and coding
-        projects.
+        projects.{" "}
+        <span className="text-rose-500">
+          Strong believer of continual learning
+        </span>
+        .
       </p>
 
       <p className="mb-4">
