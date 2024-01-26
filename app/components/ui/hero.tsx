@@ -22,15 +22,13 @@ export function Hero({ title, description, cta }: Props) {
           <AvatarImage src="/avatar-jpg.jpg" alt="Johnson Ta" />
           <AvatarFallback>CN</AvatarFallback>
         </Avatar>
-        <h1 className="font-semibold text-4xl text-lg md:text-2xl">
+        <h1 className="font-semibold text-4xl md:text-2xl">
           Hello👋 I am Johnson
         </h1>
       </div>
 
       {title && (
-        <h2 className="font-semibold text-4xl text-lg md:text-4xl mb-4">
-          {title}
-        </h2>
+        <h2 className="font-semibold text-4xl md:text-4xl mb-4">{title}</h2>
       )}
       {description && <p className="mb-4">{description}</p>}
 
