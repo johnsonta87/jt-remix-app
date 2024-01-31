@@ -19,19 +19,6 @@ export default function Contact() {
           jnsn@gmail.com
         </a>
       </p>
-      <ul>
-        <li>
-          GitHub:{" "}
-          <a
-            href="https://github.com/johnsonta87"
-            target="_blank"
-            rel="noreferrer"
-            className="text-rose-500"
-          >
-            https://github.com/johnsonta87
-          </a>
-        </li>
-      </ul>
     </div>
   );
 }

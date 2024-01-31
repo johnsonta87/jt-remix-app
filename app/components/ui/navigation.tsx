@@ -1,6 +1,8 @@
+import { useLocation } from "@remix-run/react";
 import { ThemeSwitcher } from "./themeSwitcher";
 
 export function Navigation() {
+  const location = useLocation();
   const links = [
     {
       link: "/",
@@ -10,6 +12,11 @@ export function Navigation() {
     {
       link: "/about",
       text: "About",
+      highlight: false,
+    },
+    {
+      link: "/works",
+      text: "Works",
       highlight: false,
     },
     {
@@ -30,7 +37,7 @@ export function Navigation() {
               href={link.link}
               className={`transition ease-in-out delay-100 hover:text-rose-500 ${
                 link.highlight ? highlightClasses : ""
-              }`}
+              } ${location.pathname === link.link ? highlightClasses : ""}`}
             >
               {link.text}
             </a>
