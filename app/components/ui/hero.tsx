@@ -1,5 +1,5 @@
 import { useNavigate } from "@remix-run/react";
-import { Avatar, AvatarFallback, AvatarImage, Button } from ".";
+import { Button } from ".";
 
 type cta = {
   text: string;
@@ -18,10 +18,10 @@ export function Hero({ title, description, cta }: Props) {
   return (
     <div>
       <div className="flex items-center gap-2 mb-8">
-        <Avatar>
+        {/* <Avatar>
           <AvatarImage src="/avatar-jpg.jpg" alt="Johnson Ta" />
           <AvatarFallback>CN</AvatarFallback>
-        </Avatar>
+        </Avatar> */}
         <h1 className="font-semibold text-4xl md:text-2xl">
           Hello👋 I am Johnson
         </h1>
