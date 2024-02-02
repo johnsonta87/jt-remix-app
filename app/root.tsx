@@ -15,7 +15,7 @@ import {
   ThemeProvider,
   useTheme,
 } from "remix-themes";
-import { Footer, Layout, Navigation } from "./components/ui/";
+import { Footer, Layout } from "./components/ui/";
 import styles from "./globals.css";
 
 import { themeSessionResolver } from "./sessions.server";
@@ -58,7 +58,7 @@ export function App() {
       </head>
       <body>
         <Layout>
-          <Navigation />
+          {/* <Navigation /> */}
           <div className="container max-w-screen-lg mx-auto px-4 my-8">
             <Outlet />
           </div>
