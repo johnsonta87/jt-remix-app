@@ -15,8 +15,7 @@ export default function About() {
       <Heading text="About me" />
 
       <p className="mb-4">
-        I’m Johnson, a <span className="text-rose-500">software engineer</span>{" "}
-        in Canada.
+        I’m Johnson, a <span className="text-rose-500">software engineer</span>.
       </p>
 
       <p className="mb-4">
