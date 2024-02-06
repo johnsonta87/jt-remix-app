@@ -1,6 +1,3 @@
-import { useNavigate } from "@remix-run/react";
-import { Button } from ".";
-
 type cta = {
   text: string;
   link: string;
@@ -12,8 +9,8 @@ type Props = {
   cta: cta;
 };
 
-export function Hero({ title, description, cta }: Props) {
-  const navigate = useNavigate();
+export function Hero({ title, description }: Props) {
+  // const navigate = useNavigate();
 
   return (
     <div>
@@ -32,9 +29,9 @@ export function Hero({ title, description, cta }: Props) {
       )}
       {description && <p className="mb-4">{description}</p>}
 
-      {cta?.text && (
+      {/* {cta?.text && (
         <Button onClick={() => navigate(cta?.link)}>{cta?.text}</Button>
-      )}
+      )} */}
     </div>
   );
 }
