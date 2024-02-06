@@ -3,7 +3,7 @@ import { Hero } from "../components/ui";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "Johnson Ta 🚀 Home" },
+    { title: "Johnson 🚀 Home" },
     { name: "description", content: "Welcome to my site!" },
   ];
 };
